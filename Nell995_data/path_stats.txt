@@ -1,0 +1,14 @@
+concept:organizationhiredperson_inv	47
+concept:personleadsorganization	33
+concept:agentcollaborateswithagent_inv	12
+concept:journalistwritesforpublication	10
+concept:organizationterminatedperson_inv	3
+concept:mutualproxyfor_inv	2
+concept:topmemberoforganization	1
+concept:personleadsorganization -> concept:personleadsorganization_inv -> concept:personleadsorganization	1
+concept:journalistwritesforpublication -> concept:journalistwritesforpublication_inv -> concept:journalistwritesforpublication	1
+concept:personleadsorganization -> concept:hasofficeincity -> concept:hasofficeincity_inv	1
+concept:agentcontrols	1
+concept:organizationhiredperson_inv -> concept:teamplaysagainstteam	1
+concept:personbelongstoorganization -> concept:subpartof_inv -> concept:proxyfor	1
+concept:organizationhiredperson_inv -> concept:organizationhiredperson -> concept:organizationhiredperson_inv	1

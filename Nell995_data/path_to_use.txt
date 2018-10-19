@@ -1,0 +1,25 @@
+concept:personleadsorganization
+concept:organizationhiredperson_inv
+concept:agentcollaborateswithagent_inv
+concept:journalistwritesforpublication
+concept:mutualproxyfor_inv
+concept:organizationterminatedperson_inv
+concept:topmemberoforganization
+concept:coachesteam
+concept:ceoof
+concept:agentcontrols
+concept:personhasresidenceingeopoliticallocation
+concept:subpartof_inv
+concept:personleadsorganization -> concept:personleadsorganization_inv -> concept:personleadsorganization
+concept:agentcollaborateswithagent -> concept:agentcollaborateswithagent_inv -> concept:personleadsorganization
+concept:journalistwritesforpublication -> concept:journalistwritesforpublication_inv -> concept:journalistwritesforpublication
+concept:personleadsorganization -> concept:hasofficeincity -> concept:hasofficeincity_inv
+concept:organizationterminatedperson_inv -> concept:organizationhiredperson -> concept:personleadsorganization
+concept:personbelongstoorganization -> concept:organizationhiredperson -> concept:organizationhiredperson_inv
+concept:journalistwritesforpublication -> concept:competeswith -> concept:hasofficeincity
+concept:personbelongstoorganization -> concept:personleadsorganization_inv -> concept:topmemberoforganization
+concept:personleadsorganization -> concept:agentcontrols -> concept:agentcontrols_inv
+concept:agentcontrols_inv -> concept:agentcollaborateswithagent -> concept:agentcollaborateswithagent_inv
+concept:topmemberoforganization -> concept:organizationheadquarteredincity -> concept:organizationheadquarteredincity_inv
+concept:agentcontrols_inv -> concept:agentcollaborateswithagent -> concept:topmemberoforganization
+concept:journalistwritesforpublication -> concept:journalistwritesforpublication_inv -> concept:journalistwritesforpublication -> concept:headquarteredin
